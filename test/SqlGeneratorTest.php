@@ -21,7 +21,7 @@ class SqlGeneratorTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals('SqlGenerator', get_class($sqlGenerator));
     }
     
-    public function testSelectUnCampo() {
+    public function testSelectUnCampoPorqueYoLoValgo() {
         $this->assertEquals(
             'SELECT nombre FROM programadores ORDER BY nombre ASC',
             $this->sqlGenerator->select('programadores', 

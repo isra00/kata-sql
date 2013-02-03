@@ -1,6 +1,6 @@
 <?php
 
-class SqlGeneratorInvalidFieldsException extends Exception {
+class SqlGeneratorInvalidFieldsExceptionKiller extends Exception {
     
 }
 

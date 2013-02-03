@@ -4,7 +4,7 @@ class SqlGeneratorInvalidFieldsException extends Exception {
     
 }
 
-class SqlGeneratorTableNotExistException extends Exception {
+class SqlGeneratorTableNotExistExceptionNewName extends Exception {
     
 }
 

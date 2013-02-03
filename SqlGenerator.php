@@ -1,6 +1,6 @@
 <?php
 
-class SqlGeneratorInvalidFieldsExceptionOlaKeAse extends Exception {
+class SqlGeneratorInvalidFieldsException extends Exception {
     
 }
 
